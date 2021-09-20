@@ -1,0 +1,22 @@
+创建了路由之后在外层创建一个home的组件
+
+
+
+react+redux
+开发环境：node+myslq+apach
+
+安装依赖：
+	cnpm install --save redux react-redux
+	(提示)  cnpm install --save-dev redux-logger redux-devtools-extension(拓展工具)
+	cnpm install --save redux-thunk--异步处理，因为我们这里肯定涉及网络请求，所以我们这里一定要有异步
+
+将安装的依赖引入项目  index.js
+
+
+server：服务器端搭建
+全局安装nodemon
+cnpm install -g nodemon
+热更新的效果
+ "scripts": {
+    "start": "nodemon ./index.js"
+  },
